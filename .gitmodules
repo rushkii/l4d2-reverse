@@ -1,0 +1,6 @@
+[submodule "injector-dll/imgui"]
+	path = injector-dll/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "injector-dll/minhook"]
+	path = injector-dll/minhook
+	url = https://github.com/TsudaKageyu/minhook.git

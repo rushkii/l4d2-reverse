@@ -81,7 +81,7 @@ HRESULT WINAPI hooks::hkEndScene(IDirect3DDevice9 *pDevice) {
                 RECT client_rect;
                 if(GetClientRect(g_window, &client_rect)) {
                     float window_height = static_cast<float>(client_rect.bottom - client_rect.top);
-                    
+
                     ImFontConfig font_config;
                     font_config.SizePixels = CalcFontSize(window_height);
                     io.Fonts->AddFontDefault(&font_config);
